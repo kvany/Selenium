@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Click on Admin page",
+        "description": "",
+        "id": "orangehrm-website;click-on-admin-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12476604400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch orangehrm application and login",
+            "match": {
+              "location": "orangehrmrecruitmentstep.launch_orangehrm_application_and_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23221300,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.pages.HRM_Adminpages.clickadmin(HRM_Adminpages.java:35)\r\n\tat com.stepdefinition.orangehrmadminstep.select_Admin_tab(orangehrmadminstep.java:35)\r\n\tat ✽.When select Admin tab(C:/Users/KRISHNA PC/eclipse-workspace/cucumberhybridframework/src/test/resources/Features/Admin.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "select Admin tab",
+            "match": {
+              "location": "orangehrmadminstep.select_Admin_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter username",
+            "match": {
+              "location": "orangehrmadminstep.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Select userrole",
+            "match": {
+              "location": "orangehrmadminstep.select_userrole()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter Employeename",
+            "match": {
+              "location": "orangehrmadminstep.enter_Employeename()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select  Status",
+            "match": {
+              "location": "orangehrmadminstep.select_Status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click Sreach button",
+            "match": {
+              "location": "orangehrmadminstep.click_Sreach_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Take pic",
+            "match": {
+              "location": "orangehrmadminstep.Take_pic()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "quit application",
+            "match": {
+              "location": "orangehrmadminstep.quit_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_adminpage"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/KRISHNA PC/eclipse-workspace/cucumberhybridframework/src/test/resources/Features/Admin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@orangeHRM"
+      }
+    ]
+  }
+]

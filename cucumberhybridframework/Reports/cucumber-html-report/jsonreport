@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "launch the browser adn enter the url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "enter the \"Admin\" and \"admin123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "click the login button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_Login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "launch the browser adn enter the url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "login page is opened",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "enter the \"admin\" and \"Admin124\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "click the login button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_Login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      }
+    ],
+    "name": "orangeHrm website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/KRISHNA PC/eclipse-workspace/cucumberhybridframework/src/test/resources/Features2/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@orangeHRM"
+      }
+    ]
+  }
+]
